@@ -49,14 +49,9 @@ class PlayMusic extends StatelessWidget {
           audio.play('assets/note$tone.wav');
         },
         child: Center(
-          child: Column(
-            children: [
-              Text(
-                txt,
-                style: const TextStyle(fontSize: 20, color: Colors.white),
-              ),
-              const SizedBox(height: 10),
-            ],
+          child: Text(
+            txt,
+            style: const TextStyle(fontSize: 20, color: Colors.white),
           ),
         ),
       ),
